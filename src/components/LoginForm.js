@@ -33,4 +33,4 @@ class LoginForm extends Component {
     }
 }
 
-export default connect(null, {emailChanged}(LoginForm);
+export default connect(null, {emailChanged})(LoginForm);
