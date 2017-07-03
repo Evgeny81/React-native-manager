@@ -6,3 +6,9 @@ export const employeeUpdate = ({prop, value}) => {
         payload: {prop, value}
     }
 };
+
+export const empoyeeCreate = ({name, phone, shift}) = {
+    return {
+        type: EMPLOYEE_CREATE
+    }
+};
